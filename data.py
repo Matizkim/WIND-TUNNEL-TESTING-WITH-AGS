@@ -11,7 +11,7 @@ baud_rate = 115200
 ser = serial.Serial(arduino_port, baud_rate, timeout=1)
 
 # Set the output CSV file
-csv_file = "arduino_data.csv"
+csv_file = "Drag force.csv"
 
 # Open the CSV file for writing
 with open(csv_file, mode='w', newline='') as file:
